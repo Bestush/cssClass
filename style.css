@@ -1,0 +1,110 @@
+body{
+    margin: 0 auto;
+    width: 100%;
+}
+header{
+    width: 100%;
+    margin-bottom: 0;
+}
+.phoneMail{
+    display: flex;
+justify-content: flex-end;
+
+}
+
+.phoneMail p {
+margin-left: 1vw;
+}
+
+.contact {
+    background-color: #282828;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.socialmedia {
+    display: flex;
+}
+.socialmedia i {
+    display: flex;
+    align-self: center;
+    margin-right: 1vw;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-content: center;
+}
+ul li {
+    margin-left: 1vw;
+    font-size: 1.5vw;
+}
+.phoneMail i {
+    display: flex;
+    align-self: center;
+    margin-left: 2vw;
+    font-size: 1.5vw;
+}
+.mainPicture {
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    background: #4BA367;
+}
+.mainPictureText{
+    margin: 0 auto;
+    width: 78%;
+    padding-top: 3vh;
+}
+img{
+width: 40%;
+}
+
+form{
+    align-items: center;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+form input {
+    border-color:#377A4C ;
+    border-radius: 10px 0 0 10px;
+    padding: 8px 0  8px 2.5px;
+/* margin: 0;
+padding: 0; */
+}
+
+form button {
+    color: white;
+    background: #377A4C;
+    border-color: #377A4C;
+    border-radius: 0 10px 10px 0;
+    padding: 8px 2.5px 8px 0;
+    
+}
+
+.belowForm {
+  color: white;
+}
+
+.signUp {
+    margin-top: 0;
+    background: repeating-linear-gradient(
+  -45deg,
+  rgba(148, 148, 148, 0.100) ,
+  rgba(148, 148, 148, 0.100) 0.25px,
+  white 1px,
+  white 1px
+);
+}
+
+h3 {
+    margin-top: 0;
+}
